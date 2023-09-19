@@ -1,13 +1,3 @@
-# Sample Hardhat Project
+# Staking Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+This project demonstrates A staking contract that allows the users to stake a token ($GOV) that can be purchased in any Dex for a reward ($REW), the staking/locking period is 3 months, after which the tokens can be unstaked, rewards claimed. The unclaimed reward tokens will be claimed by the deployer of the contract and used by the ecosystem for the protocol development
